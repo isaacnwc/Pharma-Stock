@@ -1,0 +1,117 @@
+
+.logo-canto {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 220px;
+    height: auto;
+    margin: 0;
+    z-index: 10;
+}
+
+
+
+.cadastro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 657px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.titulo-cadastro {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    color: #E7184E;
+    letter-spacing: 0.08em;
+    margin-top: 32px;
+   
+    margin-bottom: 0px;
+    line-height: 0.5;
+    font-family: 'Jaldi', Arial, sans-serif;
+}
+
+.subtitulo-cadastro {
+    display: block;
+    font-size: 40px;
+    color: #E7184E;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    font-family: 'Jaldi', Arial, sans-serif;
+    line-height: 1;
+}
+
+.formulario-cadastro {
+    margin-top: 0px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-wrapper-cadastro {
+    width: 100%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.label-cadastro {
+    font-size: 19px;
+    color: #b3b3b3;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.asterisco {
+    color: #E71E63;
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+.input-cadastro {
+    width: 100%;
+    height: 48px;
+    border-radius: 7px;
+    border: 2.5px solid #6EC1E4;
+    background: #fff;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #333;
+    font-family: inherit;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+.input-cadastro.input-azul {
+    border-color: #6EC1E4;
+}
+.input-cadastro.input-rosa {
+    border-color: #F06292;
+}
+
+
+.botao-cadastrar {
+       width: 220px;
+    height: 48px;
+    background: #53B4E1;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Jaldi', Arial, sans-serif;
+    border: none;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    margin: 0 auto 40px auto;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: block;
+}
+

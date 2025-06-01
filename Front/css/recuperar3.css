@@ -1,0 +1,144 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        180deg,
+        #F8AFC5 0%,
+        #FFFFFF 55%,
+        #B2F0FB 100%
+    );
+}
+
+.logo-canto {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 220px;
+    height: auto;
+    margin: 0;
+    z-index: 10;
+}
+
+.recuperar3-container {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-recuperar3 {
+     
+        text-align: center;
+        color: #E7184E;
+        font-size: 48px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        line-height: 0.5;
+     
+        font-family: 'Jaldi', Arial, sans-serif;
+    }
+    
+
+
+.subtitulo-recuperar3 {
+    display: block;
+    font-size: 33px;
+    color: #E7184E;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    font-family: 'Jaldi', Arial, sans-serif;
+    line-height: 1;
+}
+
+.texto-instrucao {
+    color: #1e1e1e;
+    font-size: 24px;
+    font-family: 'Jaldi', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+    line-height: 23px;
+    font-weight: 400;
+    max-width: 637px;
+}
+
+.formulario-recuperar3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100vw;
+    max-width: 600px;
+}
+
+.input-wrapper-recuperar3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 600px;
+}
+
+.label-recuperar3 {
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Jaldi', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.input-recuperar3 {
+    width: 100%;
+    height: 48px;
+    border-radius: 7px;
+    border: 2.5px solid #E7184E;
+    outline: none;
+    background: #fff;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #333;
+    font-family: 'Jaldi', sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+
+
+
+
+.botao-confirmar {
+    width: 220px;
+    height: 48px;
+    background: #53B4E1;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Jaldi', Arial, sans-serif;
+    border: none;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    margin: 0 auto 40px auto;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: block;
+}
+
+.botao-confirmar:hover {
+    background: #4294bb;
+}
+
+.asterisco {
+    color: #E71E63;
+    font-size: 18px;
+    margin-left: 2px;
+} 

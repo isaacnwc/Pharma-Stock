@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jaldi', sans-serif;
+}
+
+body {
+    
+    box-sizing: border-box;
+    background: linear-gradient(
+        180deg,
+        #F8AFC5 0%,
+        #FFFFFF 55%,
+        #B2F0FB 100%
+    );
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 379px;
+    height: 378px;
+    display: block;
+    margin: 0 auto 16px auto;
+}
+
+.titulo {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 0;
+}
+
+.input-wrapper {
+    width: 657px;
+    height: 53px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.input-wrapper.user {
+    border: 3px solid transparent;
+    background: radial-gradient(50% 316.04% at 50% 50%, #E7184E 0%, #F57B9B 100%) border-box;
+}
+.input-wrapper.senha {
+    border: 2px solid transparent;
+    background: linear-gradient(to right, #2C80CE, #7AE8F3) border-box;
+    margin-bottom: 40px;
+}
+.input-user, .input-senha {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #888;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+}
+
+.botao-login {
+    width: 220px;
+    height: 48px;
+    background: #53B4E1;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Jaldi', Arial, sans-serif;
+    border: none;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    margin: 0 auto 40px auto;
+    transition: background 0.2s;
+    display: block;
+}
+.botao-login:hover {
+    background: #4294bb;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+    margin-top: 0;
+    justify-content: center;
+}
+.links a {
+    color: #E7184E;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: color 0.2s;
+}
+.links a:hover {
+    color: #a91236;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        width: 98vw;
+        height: auto;
+        padding: 16px;
+    }
+    .input-user, .input-senha {
+        width: 95vw;
+        max-width: 657px;
+    }
+}
+
